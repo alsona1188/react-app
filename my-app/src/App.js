@@ -1,11 +1,11 @@
-
 import './App.css';
-import StatefulGreeting from "./components/StatefulGreeting";
+import NavBarSimple from './components/NavBarSimple';
+//import StatefulGreeting from "./components/StatefulGreeting";
 
 function App() {
   return (
     <div className="App">
-      <StatefulGreeting greeting ="I am a stateful class component!" />
+      <NavBarSimple />
     </div>
   );
 }
